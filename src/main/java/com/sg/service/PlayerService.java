@@ -1,4 +1,4 @@
-package com.sg.dao;
+package com.sg.service;
 
 import com.sg.dto.Player;
 import com.sg.dto.Position;
@@ -6,7 +6,7 @@ import com.sg.dto.Team;
 
 import java.util.List;
 
-public interface PlayerDao {
+public interface PlayerService {
 
     public Player create(Player player);
     public Player read(Long id);
@@ -15,5 +15,7 @@ public interface PlayerDao {
     public List<Player> getPlayersByTeam(Team team, int limit, int offset);
 
     public List<Player> getPlayersByPosition(Position position, int limit, int offset);
-
+//
+//    public void addPlayerToPosition(Player player, Position position);
+//    public void deletePlayerFromPosition(Player player, Position position);
 }

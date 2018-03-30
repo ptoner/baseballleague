@@ -1,12 +1,8 @@
-package com.sg.dao;
+package com.sg.service;
 
+import com.sg.dao.PlayerDao;
 import com.sg.dto.Player;
-import com.sg.dto.PlayerPosition;
-import com.sg.dto.Position;
 import com.sg.dto.Team;
-import com.sg.service.PlayerPositionService;
-import com.sg.service.PositionService;
-import com.sg.service.TeamService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,26 +12,19 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;
-import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"/test-applicationContext.xml"})
 @Rollback
 @Transactional
-public class PlayerDaoImplTest {
+public class PlayerServiceImplTest {
 
     @Inject
-    PlayerDao playerDao;
+    PlayerService playerService;
 
     @Inject
     TeamService teamService;
-
-    @Inject
-    PositionService positionService;
-
-    @Inject
-    PlayerPositionService playerPositionService;
 
     @Before
     public void setUp() throws Exception {
@@ -50,7 +39,7 @@ public class PlayerDaoImplTest {
 
 
         //Act
-        Player createdPlayer = playerDao.create(player);
+        Player createdPlayer = playerService.create(player);
 
 
         //Assert
@@ -70,7 +59,7 @@ public class PlayerDaoImplTest {
         Player createdPlayer = createTestPlayer(0, createdTeam);
 
         //Act
-        Player readPlayer = playerDao.read(createdPlayer.getId());
+        Player readPlayer = playerService.read(createdPlayer.getId());
 
 
         //Assert
@@ -82,7 +71,26 @@ public class PlayerDaoImplTest {
 
     }
 
+    private Player createTestPlayer(int playerIndex, Team team) {
 
+        Player player = new Player();
+        player.setFirstName("Pat" + playerIndex);
+        player.setLastName("Toner" + playerIndex);
+        player.setHomeTown("Australia" + playerIndex);
+        player.setTeam(team);
+
+        return playerService.create(player);
+    }
+
+
+    private Team createTestTeam() {
+
+        Team team = new Team();
+        team.setCity("Pittsburgh");
+        team.setNickname("Pirates");
+
+        return teamService.create(team);
+    }
 
 
     @Test
@@ -92,7 +100,7 @@ public class PlayerDaoImplTest {
         Team createdTeam = createTestTeam();
         Player createdPlayer = createTestPlayer(0, createdTeam);
 
-        Player readPlayer = playerDao.read(createdPlayer.getId());
+        Player readPlayer = playerService.read(createdPlayer.getId());
 
         //Update fields
         readPlayer.setFirstName("Tom");
@@ -109,11 +117,11 @@ public class PlayerDaoImplTest {
         readPlayer.setTeam(createdNewTeam);
 
         //Act
-        playerDao.update(readPlayer);
+        playerService.update(readPlayer);
 
 
         //Assert
-        Player updatedPlayer = playerDao.read(readPlayer.getId());
+        Player updatedPlayer = playerService.read(readPlayer.getId());
 
         assert "Tom".equals(updatedPlayer.getFirstName());
         assert "Smith".equals(updatedPlayer.getLastName());
@@ -131,11 +139,11 @@ public class PlayerDaoImplTest {
         Player createdPlayer = createTestPlayer(0, createdTeam);
 
         //Act
-        playerDao.delete(createdPlayer);
+        playerService.delete(createdPlayer);
 
 
         //Assert
-        Player readPlayer = playerDao.read(createdPlayer.getId());
+        Player readPlayer = playerService.read(createdPlayer.getId());
 
         assert readPlayer == null;
 
@@ -153,7 +161,7 @@ public class PlayerDaoImplTest {
 
 
         //Act
-        List<Player> resultPlayers = playerDao.getPlayersByTeam(createTeam, Integer.MAX_VALUE, 0);
+        List<Player> resultPlayers = playerService.getPlayersByTeam(createTeam, Integer.MAX_VALUE, 0);
 
 
         //Assert
@@ -173,7 +181,7 @@ public class PlayerDaoImplTest {
 
 
         //Act
-        List<Player> resultPlayers = playerDao.getPlayersByTeam(createTeam, 5, 0);
+        List<Player> resultPlayers = playerService.getPlayersByTeam(createTeam, 5, 0);
 
 
         //Assert
@@ -183,47 +191,7 @@ public class PlayerDaoImplTest {
 
 
 
-    @Test
-    public void getPlayersByPosition() {
 
-        //Arrange
-        Position createPosition = createTestPosition();
-        int numberOfPlayers = 15;
-
-
-        createTestPlayers(createPosition, numberOfPlayers);
-
-
-        //Act
-        List<Player> resultPlayers = playerDao.getPlayersByPosition(createPosition, Integer.MAX_VALUE, 0);
-
-
-        //Assert
-        assertPlayersByPosition(numberOfPlayers, resultPlayers, createPosition);
-
-    }
-
-
-    private Position createTestPosition() {
-        Position position = new Position();
-        position.setName("P");
-        return positionService.create(position);
-    }
-
-    private void assertPlayersByPosition(int numberOfPlayers, List<Player> resultPlayers, Position position) {
-        assert resultPlayers.size() == numberOfPlayers;
-        for (Player player : resultPlayers) {
-            List<Position> playersPositions = positionService.getPositionsByPlayer(player, Integer.MAX_VALUE, 0);
-
-            //Loop through player's positions and verify it contains the one we added.
-            boolean containsPosition = false;
-            for (Position pos : playersPositions) {
-                if (pos.getId().equals(position.getId())) containsPosition = true;
-            }
-
-            assert containsPosition == true;
-        }
-    }
 
 
     private void assertPlayersOnTeam(int numberOfPlayers, List<Player> resultPlayers, Team createTeam) {
@@ -237,41 +205,6 @@ public class PlayerDaoImplTest {
         for (int i=0; i < numberOfPlayers; i++) {
             createTestPlayer(i, createTeam);
         }
-    }
-
-    private void createTestPlayers(Position createPosition, int numberOfPlayers) {
-        for (int i=0; i < numberOfPlayers; i++) {
-            Player player = createTestPlayer(i, null);
-
-            PlayerPosition playerPosition = new PlayerPosition();
-            playerPosition.setPlayer(player);
-            playerPosition.setPosition(createPosition);
-            playerPositionService.create(playerPosition);
-
-        }
-    }
-
-    private Player createTestPlayer(int playerIndex, Team team) {
-
-        Player player = new Player();
-        player.setFirstName("Pat" + playerIndex);
-        player.setLastName("Toner" + playerIndex);
-        player.setHomeTown("Australia" + playerIndex);
-        player.setTeam(team);
-
-        return playerDao.create(player);
-    }
-
-
-
-
-    private Team createTestTeam() {
-
-        Team team = new Team();
-        team.setCity("Pittsburgh");
-        team.setNickname("Pirates");
-
-        return teamService.create(team);
     }
 
 

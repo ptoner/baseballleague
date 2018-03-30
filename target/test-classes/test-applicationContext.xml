@@ -41,6 +41,12 @@
     <bean id="teamService" class="com.sg.service.TeamServiceImpl" />
 
     <bean id="playerDao" class="com.sg.dao.PlayerDaoImpl" />
+    <bean id="playerService" class="com.sg.service.PlayerServiceImpl" />
 
+    <bean id="positionDao" class="com.sg.dao.PositionDaoImpl" />
+    <bean id="positionService" class="com.sg.service.PositionServiceImpl" />
+
+    <bean id="playerPositionDao" class="com.sg.dao.PlayerPositionDaoImpl" />
+    <bean id="playerPositionService" class="com.sg.service.PlayerPositionServiceImpl" />
     
 </beans>

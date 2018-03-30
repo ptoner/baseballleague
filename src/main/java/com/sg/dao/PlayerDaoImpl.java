@@ -1,6 +1,7 @@
 package com.sg.dao;
 
 import com.sg.dto.Player;
+import com.sg.dto.Position;
 import com.sg.dto.Team;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -21,6 +22,10 @@ public class PlayerDaoImpl implements PlayerDao {
     static String READ_QUERY = "SELECT * FROM player where id = ?";
     static String UPDATE_QUERY = "UPDATE player SET first_name = ?, last_name = ?, home_town = ?, team_id =? WHERE id = ?";
     static String DELETE_QUERY = "DELETE from player WHERE id = ?";
+    static String GET_PLAYERS_BY_TEAM_QUERY = "select * from player where team_id = ? LIMIT ? OFFSET ?";
+    static String GET_PLAYERS_BY_POSITION_QUERY = "select * from player p " +
+                                                  "inner join player_position pp on p.id = pp.player_id " +
+                                                  "where pp.position_id = ? LIMIT ? OFFSET ?";
 
     @Inject
     public PlayerDaoImpl(JdbcTemplate jdbcTemplate) {
@@ -91,8 +96,29 @@ public class PlayerDaoImpl implements PlayerDao {
 
     @Override
     public List<Player> getPlayersByTeam(Team team, int limit, int offset) {
-        return null;
+
+        List<Player> players = jdbcTemplate.query(GET_PLAYERS_BY_TEAM_QUERY,
+                new PlayerMapper(),
+                team.getId(),
+                limit,
+                offset
+        );
+
+
+        return players;
     }
+
+
+    @Override
+    public List<Player> getPlayersByPosition(Position position, int limit, int offset) {
+        return jdbcTemplate.query(GET_PLAYERS_BY_POSITION_QUERY,
+                                  new PlayerMapper(),
+                                  position.getId(),
+                                  limit,
+                                  offset
+        );
+    }
+
 
     private class PlayerMapper implements RowMapper<Player> {
 
