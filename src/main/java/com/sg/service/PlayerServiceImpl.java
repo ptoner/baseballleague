@@ -39,6 +39,11 @@ public class PlayerServiceImpl implements PlayerService {
     }
 
     @Override
+    public List<Player> list(int limit, int offset) {
+        return playerDao.list(limit, offset);
+    }
+
+    @Override
     public List<Player> getPlayersByTeam(Team team, int limit, int offset) {
         return playerDao.getPlayersByTeam(team, limit, offset);
     }

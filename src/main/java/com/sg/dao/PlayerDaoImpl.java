@@ -26,6 +26,7 @@ public class PlayerDaoImpl implements PlayerDao {
     static String GET_PLAYERS_BY_POSITION_QUERY = "select * from player p " +
                                                   "inner join player_position pp on p.id = pp.player_id " +
                                                   "where pp.position_id = ? LIMIT ? OFFSET ?";
+    static String LIST_QUERY = "SELECT * from player LIMIT ? OFFSET ?";
 
     @Inject
     public PlayerDaoImpl(JdbcTemplate jdbcTemplate) {
@@ -91,6 +92,11 @@ public class PlayerDaoImpl implements PlayerDao {
     @Override
     public void delete(Player player) {
         jdbcTemplate.update(DELETE_QUERY, player.getId());
+    }
+
+    @Override
+    public List<Player> list(int limit, int offset) {
+        return jdbcTemplate.query(LIST_QUERY, new PlayerMapper(), limit, offset);
     }
 
 
