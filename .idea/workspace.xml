@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac17227-9c92-42f4-9216-0ef32962c7ff" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/createteam/CreateTeamCommandModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/editteam/EditTeamCommandModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerlist/PlayerListViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerlist/PlayerViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/createteam/CreateTeamViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/editteam/EditTeamViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/teamlist/TeamListViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/teamlist/TeamViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/teamprofile/TeamProfileViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/util/PagingUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sg/webservice/TeamWebServiceImplTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/TeamService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/TeamService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/TeamServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/TeamServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test-applicationContext.xml" afterPath="$PROJECT_DIR$/src/test/resources/test-applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDao.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDaoImpl$TeamMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDaoImpl$TeamMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/TeamDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/PlayerService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/PlayerService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/PlayerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/PlayerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/TeamService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/TeamService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/TeamServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/TeamServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test-applicationContext.xml" afterPath="$PROJECT_DIR$/target/test-classes/test-applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,16 +71,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="98" column="79" lean-forward="false" selection-start-line="98" selection-start-column="79" selection-end-line="98" selection-end-column="79" />
+              <caret line="166" column="52" lean-forward="true" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
               <folding>
                 <element signature="method#update#0;class#PlayerDaoImpl#0" expanded="false" />
-                <marker date="1523299583535" expanded="true" signature="616:695" ph="INSERT INTO team... " />
-                <marker date="1523299583535" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
-                <marker date="1523299583535" expanded="true" signature="800:887" ph="UPDATE team... " />
-                <marker date="1523299583535" expanded="true" signature="924:955" ph="DELETE from team... " />
-                <marker date="1523299583535" expanded="true" signature="1005:1060" ph="select * fro... player" />
-                <marker date="1523299583535" expanded="true" signature="1114:1341" ph="select * fro... player" />
-                <marker date="1523299583535" expanded="true" signature="2067:2090" ph="SELECT LAST_... " />
+                <marker date="1523301697456" expanded="true" signature="616:695" ph="INSERT INTO team... " />
+                <marker date="1523301697456" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
+                <marker date="1523301697456" expanded="true" signature="800:887" ph="UPDATE team... " />
+                <marker date="1523301697456" expanded="true" signature="924:955" ph="DELETE from team... " />
+                <marker date="1523301697456" expanded="true" signature="1005:1060" ph="select * fro... player" />
+                <marker date="1523301697456" expanded="true" signature="1114:1341" ph="select * fro... player" />
+                <marker date="1523301697456" expanded="true" signature="1376:1460" ph="SELECT * fro... player" />
+                <marker date="1523301697456" expanded="true" signature="1376:1534" ph="SELECT * fro... player" />
+                <marker date="1523301697456" expanded="true" signature="2188:2211" ph="SELECT LAST_... " />
               </folding>
             </state>
           </provider>
@@ -133,8 +103,8 @@
       <file leaf-file-name="PlayerWebServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+            <state relative-caret-position="387">
+              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -779,7 +749,7 @@
       <updated>1522333827793</updated>
       <workItem from="1522333831094" duration="13943000" />
       <workItem from="1522414778031" duration="17811000" />
-      <workItem from="1523279280115" duration="16878000" />
+      <workItem from="1523279280115" duration="18388000" />
     </task>
     <servers />
   </component>
@@ -788,6 +758,12 @@
       <configuration name="PlayerWebServiceImplTest.getPlayerListViewModel" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PlayerWebServiceImplTest_getPlayerListViewModel - 2018.04.09 at 15h 00m 44s.xml">
+      <configuration name="PlayerWebServiceImplTest.getPlayerListViewModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerWebServiceImplTest_getPlayerListViewModel - 2018.04.09 at 15h 22m 04s.xml">
+      <configuration name="PlayerWebServiceImplTest.getPlayerListViewModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerWebServiceImplTest_getPlayerListViewModel - 2018.04.09 at 15h 24m 38s.xml">
       <configuration name="PlayerWebServiceImplTest.getPlayerListViewModel" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TeamWebServiceImplTest - 2018.04.09 at 12h 11m 45s.xml">
@@ -802,12 +778,6 @@
     <history-entry file="TeamWebServiceImplTest_getEditTeamCommandModel - 2018.04.09 at 12h 10m 53s.xml">
       <configuration name="TeamWebServiceImplTest.getEditTeamCommandModel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamWebServiceImplTest_getTeamListViewModel - 2018.04.09 at 11h 18m 35s.xml">
-      <configuration name="TeamWebServiceImplTest.getTeamListViewModel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TeamWebServiceImplTest_getTeamProfileViewModel - 2018.04.09 at 12h 00m 10s.xml">
-      <configuration name="TeamWebServiceImplTest.getTeamProfileViewModel" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TeamWebServiceImplTest_getTeamProfileViewModel - 2018.04.09 at 12h 03m 35s.xml">
       <configuration name="TeamWebServiceImplTest.getTeamProfileViewModel" configurationId="JUnit" />
     </history-entry>
@@ -816,7 +786,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48632000" />
+    <option name="totallyTimeSpent" value="50142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -840,7 +810,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40119165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2691162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -878,13 +848,15 @@
           <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
           <folding>
             <element signature="method#update#0;class#PlayerDaoImpl#0" expanded="false" />
-            <marker date="1523299583535" expanded="true" signature="616:695" ph="INSERT INTO team... " />
-            <marker date="1523299583535" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
-            <marker date="1523299583535" expanded="true" signature="800:887" ph="UPDATE team... " />
-            <marker date="1523299583535" expanded="true" signature="924:955" ph="DELETE from team... " />
-            <marker date="1523299583535" expanded="true" signature="1005:1060" ph="select * fro... player" />
-            <marker date="1523299583535" expanded="true" signature="1114:1341" ph="select * fro... player" />
-            <marker date="1523299583535" expanded="true" signature="2067:2090" ph="SELECT LAST_... " />
+            <marker date="1523301697456" expanded="true" signature="616:695" ph="INSERT INTO team... " />
+            <marker date="1523301697456" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
+            <marker date="1523301697456" expanded="true" signature="800:887" ph="UPDATE team... " />
+            <marker date="1523301697456" expanded="true" signature="924:955" ph="DELETE from team... " />
+            <marker date="1523301697456" expanded="true" signature="1005:1060" ph="select * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1114:1341" ph="select * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1376:1460" ph="SELECT * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1376:1534" ph="SELECT * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="2188:2211" ph="SELECT LAST_... " />
           </folding>
         </state>
       </provider>
@@ -1415,23 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="98" column="79" lean-forward="false" selection-start-line="98" selection-start-column="79" selection-end-line="98" selection-end-column="79" />
-          <folding>
-            <element signature="method#update#0;class#PlayerDaoImpl#0" expanded="false" />
-            <marker date="1523299583535" expanded="true" signature="616:695" ph="INSERT INTO team... " />
-            <marker date="1523299583535" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
-            <marker date="1523299583535" expanded="true" signature="800:887" ph="UPDATE team... " />
-            <marker date="1523299583535" expanded="true" signature="924:955" ph="DELETE from team... " />
-            <marker date="1523299583535" expanded="true" signature="1005:1060" ph="select * fro... player" />
-            <marker date="1523299583535" expanded="true" signature="1114:1341" ph="select * fro... player" />
-            <marker date="1523299583535" expanded="true" signature="2067:2090" ph="SELECT LAST_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/PlayerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -1469,10 +1424,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="166" column="52" lean-forward="true" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
+          <folding>
+            <element signature="method#update#0;class#PlayerDaoImpl#0" expanded="false" />
+            <marker date="1523301697456" expanded="true" signature="616:695" ph="INSERT INTO team... " />
+            <marker date="1523301697456" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
+            <marker date="1523301697456" expanded="true" signature="800:887" ph="UPDATE team... " />
+            <marker date="1523301697456" expanded="true" signature="924:955" ph="DELETE from team... " />
+            <marker date="1523301697456" expanded="true" signature="1005:1060" ph="select * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1114:1341" ph="select * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1376:1460" ph="SELECT * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="1376:1534" ph="SELECT * fro... player" />
+            <marker date="1523301697456" expanded="true" signature="2188:2211" ph="SELECT LAST_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+        <state relative-caret-position="387">
+          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
