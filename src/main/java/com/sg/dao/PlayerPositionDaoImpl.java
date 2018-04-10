@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.inject.Inject;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class PlayerPositionDaoImpl implements PlayerPositionDao {
 
@@ -21,6 +22,7 @@ public class PlayerPositionDaoImpl implements PlayerPositionDao {
     static String READ_QUERY = "SELECT * FROM player_position where id = ?";
     static String UPDATE_QUERY = "UPDATE player_position SET player_id = ?, position_id = ? WHERE id = ?";
     static String DELETE_QUERY = "DELETE from player_position WHERE id = ?";
+    static String GET_BY_PLAYER = "SELECT * FROM player_position where player_id = ? LIMIT ? OFFSET ?";
 
     @Inject
     public PlayerPositionDaoImpl(JdbcTemplate jdbcTemplate) {
@@ -92,6 +94,11 @@ public class PlayerPositionDaoImpl implements PlayerPositionDao {
     @Override
     public void delete(PlayerPosition playerPosition) {
         jdbcTemplate.update(DELETE_QUERY, playerPosition.getId());
+    }
+
+    @Override
+    public List<PlayerPosition> getPlayerPositionByPlayer(Player player, int limit, int offset) {
+        return jdbcTemplate.query(GET_BY_PLAYER, new PlayerPositionMapper(), player.getId(), limit, offset);
     }
 
     private class PlayerPositionMapper implements RowMapper<PlayerPosition> {

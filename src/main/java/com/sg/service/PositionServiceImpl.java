@@ -38,6 +38,11 @@ public class PositionServiceImpl implements PositionService {
     }
 
     @Override
+    public List<Position> list(int limit, int offset) {
+        return positionDao.list(limit, offset);
+    }
+
+    @Override
     public List<Position> getPositionsByPlayer(Player player, int limit, int offset) {
         return positionDao.getPositionsByPlayer(player, limit, offset);
     }

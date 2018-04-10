@@ -1,9 +1,11 @@
 package com.sg.service;
 
 import com.sg.dao.PlayerPositionDao;
+import com.sg.dto.Player;
 import com.sg.dto.PlayerPosition;
 
 import javax.inject.Inject;
+import java.util.List;
 
 public class PlayerPositionServiceImpl implements PlayerPositionService {
 
@@ -33,5 +35,10 @@ public class PlayerPositionServiceImpl implements PlayerPositionService {
     @Override
     public void delete(PlayerPosition playerPosition) {
         playerPositionDao.delete(playerPosition);
+    }
+
+    @Override
+    public List<PlayerPosition> getPlayerPositionByPlayer(Player player, int limit, int offset) {
+        return playerPositionDao.getPlayerPositionByPlayer(player, limit, offset);
     }
 }

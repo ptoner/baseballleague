@@ -1,10 +1,19 @@
-package com.sg.commandmodel.createteam;
+package com.sg.commandmodel.team.editteam;
 
-public class CreateTeamCommandModel {
+public class EditTeamCommandModel {
 
     //Validation annotations will go here
+    private Long id;
     private String city;
     private String nickname;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getCity() {
         return city;

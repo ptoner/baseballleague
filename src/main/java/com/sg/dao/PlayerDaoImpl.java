@@ -26,9 +26,7 @@ public class PlayerDaoImpl implements PlayerDao {
     static String GET_PLAYERS_BY_POSITION_QUERY = "select * from player p " +
                                                   "inner join player_position pp on p.id = pp.player_id " +
                                                   "where pp.position_id = ? LIMIT ? OFFSET ?";
-    static String LIST_QUERY = "SELECT p.*, t.* from player p " +
-                                "INNER JOIN team t on t.id = p.team_id " +
-                                "LIMIT ? OFFSET ?";
+    static String LIST_QUERY = "SELECT * from player p LIMIT ? OFFSET ?";
 
     @Inject
     public PlayerDaoImpl(JdbcTemplate jdbcTemplate) {
@@ -98,7 +96,7 @@ public class PlayerDaoImpl implements PlayerDao {
 
     @Override
     public List<Player> list(int limit, int offset) {
-        return jdbcTemplate.query(LIST_QUERY, new PlayerMapperEagerFetchTeam(), limit, offset);
+        return jdbcTemplate.query(LIST_QUERY, new PlayerMapper(), limit, offset);
     }
 
 
@@ -155,39 +153,6 @@ public class PlayerDaoImpl implements PlayerDao {
             return player;
         }
     }
-
-
-    private class PlayerMapperEagerFetchTeam implements RowMapper<Player> {
-
-        @Override
-        public Player mapRow(ResultSet resultSet, int i) throws SQLException {
-
-            Player player = new Player();
-
-            player.setId(resultSet.getLong("p.id"));
-            player.setFirstName(resultSet.getString("p.first_name"));
-            player.setLastName(resultSet.getString("p.last_name"));
-            player.setHomeTown(resultSet.getString("p.home_town"));
-
-            Long teamId = resultSet.getLong("p.team_id");
-
-            if (teamId != null) {
-
-                Team team = new Team();
-                team.setId(teamId);
-
-                team.setCity(resultSet.getString("t.city"));
-                team.setNickname(resultSet.getString("t.nickname"));
-
-                player.setTeam(team);
-            }
-
-
-
-            return player;
-        }
-    }
-
 
 
 

@@ -1,7 +1,7 @@
 package com.sg.webservice.interfaces;
 
-import com.sg.commandmodel.createteam.CreateTeamCommandModel;
-import com.sg.commandmodel.editteam.EditTeamCommandModel;
+import com.sg.commandmodel.team.createteam.CreateTeamCommandModel;
+import com.sg.commandmodel.team.editteam.EditTeamCommandModel;
 import com.sg.dto.Team;
 import com.sg.viewmodel.team.createteam.CreateTeamViewModel;
 import com.sg.viewmodel.team.editteam.EditTeamViewModel;
