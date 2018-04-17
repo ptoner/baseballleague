@@ -10,7 +10,7 @@ import com.sg.viewmodel.team.teamprofile.TeamProfileViewModel;
 
 public interface TeamWebService {
 
-    public TeamListViewModel getTeamListViewModel(int limit, int offset, int pageNumbers);
+    public TeamListViewModel getTeamListViewModel(Integer limit, Integer offset, Integer pageNumbers);
     public TeamProfileViewModel getTeamProfileViewModel(Long id);
 
     public CreateTeamViewModel getCreateTeamViewModel();

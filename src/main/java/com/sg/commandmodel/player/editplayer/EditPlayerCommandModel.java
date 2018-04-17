@@ -1,10 +1,20 @@
 package com.sg.commandmodel.player.editplayer;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class EditPlayerCommandModel {
 
     private Long id;
+
+    @NotEmpty(message = "HELLO USER YOU DIDNT FILL THIS IN AND ID REALLY LIKE IT IF YOU FILLED IT IN")
+    @Length(min = 4, message = "Your name is too short")
     private String first;
+
+
     private String last;
+
+
     private String hometown;
     private Long teamId;
     private Long[] positionIds;

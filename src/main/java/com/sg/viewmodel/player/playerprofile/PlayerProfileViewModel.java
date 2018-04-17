@@ -7,13 +7,20 @@ public class PlayerProfileViewModel {
     private Long id;
     private String first;
     private String last;
+    private String hometown;
     private String teamName;
     private Long teamId;
 
     private List<PositionViewModel> positions;
 
 
+    public String getHometown() {
+        return hometown;
+    }
 
+    public void setHometown(String hometown) {
+        this.hometown = hometown;
+    }
 
     public Long getId() {
         return id;

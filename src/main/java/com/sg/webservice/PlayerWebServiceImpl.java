@@ -45,7 +45,13 @@ public class PlayerWebServiceImpl implements PlayerWebService {
 
 
     @Override
-    public PlayerListViewModel getPlayerListViewModel(int limit, int offset, int pageNumbers) {
+    public PlayerListViewModel getPlayerListViewModel(Integer limit, Integer offset, Integer pageNumbers) {
+
+        //Set defaults
+        if (limit == null) limit = 5;
+        if (offset == null) offset = 0;
+        if (pageNumbers == null) pageNumbers = 5;
+
 
         //Instantiate
         PlayerListViewModel playerListViewModel = new PlayerListViewModel();
@@ -99,6 +105,7 @@ public class PlayerWebServiceImpl implements PlayerWebService {
         playerProfileViewModel.setId(player.getId());
         playerProfileViewModel.setFirst(player.getFirstName());
         playerProfileViewModel.setLast(player.getLastName());
+        playerProfileViewModel.setHometown(player.getHomeTown());
 
         if (team != null) {
             playerProfileViewModel.setTeamId(team.getId());
@@ -120,6 +127,10 @@ public class PlayerWebServiceImpl implements PlayerWebService {
         //Instantiate
         CreatePlayerViewModel createPlayerViewModel = new CreatePlayerViewModel();
 
+        CreatePlayerCommandModel commandModel = new CreatePlayerCommandModel();
+        createPlayerViewModel.setCreatePlayerCommandModel(commandModel);
+
+
         List<Team> teams = teamService.list(Integer.MAX_VALUE, 0);
         List<Position> positions = positionService.list(Integer.MAX_VALUE, 0);
 
@@ -127,6 +138,8 @@ public class PlayerWebServiceImpl implements PlayerWebService {
         //Populate
         createPlayerViewModel.setPositions(translateCreatePositionViewModel(positions));
         createPlayerViewModel.setTeams(translateCreateTeamViewModel(teams));
+
+
 
         return createPlayerViewModel;
 
@@ -212,7 +225,11 @@ public class PlayerWebServiceImpl implements PlayerWebService {
         player.setFirstName(createPlayerCommandModel.getFirst());
         player.setLastName(createPlayerCommandModel.getLast());
         player.setHomeTown(createPlayerCommandModel.getHometown());
-        player.setTeam(team);
+
+        if (team != null) {
+            player.setTeam(team);
+        }
+
 
 
         //Save stuff
@@ -409,8 +426,10 @@ public class PlayerWebServiceImpl implements PlayerWebService {
         if (player.getTeam() != null) {
             Team team = teamService.read(player.getTeam().getId());
 
-            playerViewModel.setTeamId(team.getId());
-            playerViewModel.setTeamName(team.getNickname());
+            if (team != null) {
+                playerViewModel.setTeamId(team.getId());
+                playerViewModel.setTeamName(team.getNickname());
+            }
 
         }
 

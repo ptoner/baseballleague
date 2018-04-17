@@ -1,49 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="baseballleague:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fac17227-9c92-42f4-9216-0ef32962c7ff" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/CreatePlayerViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/CreatePositionViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/CreateTeamViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer/EditPlayerViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer/EditPositionViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer/EditTeamViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PositionViewModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/controller/PlayerController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/player/create.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/player/edit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/player/list.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/player/show.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/createteam/CreateTeamCommandModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/team/createteam/CreateTeamCommandModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/editteam/EditTeamCommandModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/team/editteam/EditTeamCommandModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PositionDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PositionDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dao/PositionDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dao/PositionDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PositionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PositionService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/service/PositionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/PositionServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sg/webservice/TeamWebServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/sg/webservice/TeamWebServiceImplTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/createteam/CreateTeamCommandModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/editteam/EditTeamCommandModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PlayerDaoImpl$PlayerMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/PlayerDaoImpl$PlayerMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PlayerDaoImpl$PlayerMapperEagerFetchTeam.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PlayerDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/PlayerDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDao.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDaoImpl$PositionMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDaoImpl$PositionMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/dao/PositionDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/PositionService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/PositionService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/service/PositionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/service/PositionServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-persistence.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservice/PlayerWebServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservice/PlayerWebServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservice/TeamWebServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservice/TeamWebServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservice/interfaces/PlayerWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservice/interfaces/PlayerWebService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservice/interfaces/TeamWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservice/interfaces/TeamWebService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-persistence.xml" afterPath="$PROJECT_DIR$/target/classes/spring-persistence.xml" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sg/webservice/PlayerWebServiceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/sg/webservice/PlayerWebServiceImplTest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sg/webservice/TeamWebServiceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/sg/webservice/TeamWebServiceImplTest.class" />
     </list>
@@ -57,57 +42,123 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayerWebServiceImpl.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="PlayerWebServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-617">
-              <caret line="135" column="53" lean-forward="false" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="53" />
+            <state relative-caret-position="617">
+              <caret line="430" column="64" lean-forward="false" selection-start-line="430" selection-start-column="64" selection-end-line="430" selection-end-column="64" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#PlayerWebServiceImpl#0;class#PlayerWebServiceImpl#0" expanded="false" />
-                <element signature="method#getPlayerListViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
-                <element signature="method#getPlayerProfileViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
-                <element signature="method#saveCreatePlayerCommandModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#saveEditPlayerCommandModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#translateCreateTeamViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#translateCreatePositionViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#translateEditTeamViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#translatePosition#0;class#PlayerWebServiceImpl#0" expanded="false" />
                 <element signature="method#translatePosition#1;class#PlayerWebServiceImpl#0" expanded="false" />
-                <element signature="method#translate#1;class#PlayerWebServiceImpl#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerWebService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java">
+      <file leaf-file-name="TeamService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            <state relative-caret-position="105">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerWebServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java">
+      <file leaf-file-name="TeamDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="416" column="58" lean-forward="false" selection-start-line="416" selection-start-column="58" selection-end-line="416" selection-end-column="58" />
+            <state relative-caret-position="105">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getPlayerListViewModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#getPlayerProfileViewModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#saveCreatePlayerCommandModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#saveEditPlayerCommandModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#createTestPlayerWithTeamAndPositions#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#createTestPlayer#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#createTestPlayers#0;class#PlayerWebServiceImplTest#0" expanded="false" />
-                <element signature="method#createTestTeams#0;class#PlayerWebServiceImplTest#0" expanded="false" />
+                <marker date="1523284933469" expanded="true" signature="495:541" ph="INSERT INTO team... " />
+                <marker date="1523284933469" expanded="true" signature="576:607" ph="SELECT * FRO... team" />
+                <marker date="1523284933469" expanded="true" signature="644:695" ph="UPDATE team... " />
+                <marker date="1523284933469" expanded="true" signature="732:761" ph="DELETE from team... " />
+                <marker date="1523284933469" expanded="true" signature="796:831" ph="SELECT * fro... team" />
+                <marker date="1523284933469" expanded="true" signature="1218:1241" ph="SELECT LAST_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/create.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdkDynamicAopProxy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatePlayerCommandModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding>
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +172,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -144,13 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/sg/dao/PlayerPositionDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sg/service/PlayerPositionServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sg/dao/PlayerDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/TeamListViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/EditTeamViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/createteam/CreateTeamViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/editteam/EditTeamViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/teamlist/TeamViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/teamlist/TeamListViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodels/teamprofile/TeamProfileViewModel.java" />
@@ -164,8 +209,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/util/PagingUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/teamlist/TeamViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sg/webservice/TeamWebServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerListViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerlist/PlayerListViewModel.java" />
@@ -176,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PositionViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PositionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/PositionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PositionServiceImpl.java" />
@@ -185,16 +227,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/PositionViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/PositionDropDownViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/createplayer/CreatePlayerViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer/EditPlayerViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PlayerPositionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/PlayerPositionDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/player/show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/controller/PlayerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/player/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/player/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/player/edit.jsp" />
       </list>
     </option>
   </component>
@@ -204,6 +256,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -211,9 +270,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -233,6 +292,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -288,6 +348,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
+              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
+              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sg" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
+              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sg" type="1f31426a:PackageElementNode" />
+              <item name="viewmodel" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
+              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sg" type="1f31426a:PackageElementNode" />
+              <item name="webservice" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,25 +425,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="commandmodel" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,7 +435,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="commandmodel" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
               <item name="createplayer" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -383,90 +453,36 @@
               <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
               <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
               <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
               <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseballleague" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sg" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
-              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
-              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
-              <item name="com.sg" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
-              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
-              <item name="com.sg" type="1f31426a:PackageElementNode" />
-              <item name="viewmodel" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="baseballleague" type="58d84e3e:PackageViewProjectNode" />
-              <item name="baseballleague" type="616d4139:PackageViewModuleNode" />
-              <item name="com.sg" type="1f31426a:PackageElementNode" />
-              <item name="webservice" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -479,7 +495,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="/Applications/VisualVM.app/Contents/MacOS/visualvm" />
@@ -498,16 +514,17 @@
       <recent name="com.sg.service" />
       <recent name="com.sg.dao" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sg.commandmodel.player.editplayer" />
       <recent name="com.sg.commandmodels.editteam" />
       <recent name="com.sg.service" />
       <recent name="com.sg.dao" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/jsp/player" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sg" />
     </key>
@@ -524,7 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerWebServiceImplTest.getEditPlayerViewModel">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -724,6 +741,115 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="baseballleague:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_baseballleague_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64121" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="64122" />
+        <option name="visualVMId" value="3445767682352901" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="baseballleague:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -734,12 +860,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.getCreatePlayerViewModel" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.saveCreatePlayerCommandModel" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.saveEditPlayerCommandModel" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.getEditPlayerViewModel" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.getCreatePlayerViewModel" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.saveCreatePlayerCommandModel" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.saveEditPlayerCommandModel" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PlayerWebServiceImplTest.getEditPlayerViewModel" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -768,7 +895,10 @@
       <workItem from="1522414778031" duration="17811000" />
       <workItem from="1523279280115" duration="24204000" />
       <workItem from="1523364907661" duration="5945000" />
-      <workItem from="1523371162215" duration="7130000" />
+      <workItem from="1523371162215" duration="7144000" />
+      <workItem from="1523378651742" duration="633000" />
+      <workItem from="1523549832761" duration="5816000" />
+      <workItem from="1523625359159" duration="9637000" />
     </task>
     <servers />
   </component>
@@ -805,14 +935,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69033000" />
+    <option name="totallyTimeSpent" value="85133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -821,22 +952,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.408143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2691162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="0" y="0" width="430" height="880" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26844016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -846,6 +977,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,117 +1025,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/dao/TeamDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/dao/PlayerPositionDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/service/PlayerServiceDaoImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/dao/PlayerDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dto/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/createteam/CreateTeamViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/editteam/EditTeamViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/team/editteam/EditTeamCommandModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/team/createteam/CreateTeamCommandModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/service/PlayerPositionServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/util/PagingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/team/teamlist/TeamViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1015,13 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1037,13 +1056,6 @@
         <state relative-caret-position="225">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -1072,36 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="53" column="81" lean-forward="false" selection-start-line="53" selection-start-column="81" selection-end-line="53" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,20 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,23 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#842#843#0" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="method#translate#0;class#TeamWebServiceImpl#0" expanded="false" />
-            <element signature="method#translate#1;class#TeamWebServiceImpl#0" expanded="false" />
-            <element signature="method#getTeamProfileViewModel#0;class#TeamWebServiceImpl#0" expanded="false" />
-            <element signature="method#getEditTeamCommandModel#0;class#TeamWebServiceImpl#0" expanded="false" />
-            <element signature="method#saveCreateTeamCommandModel#0;class#TeamWebServiceImpl#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,18 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="method#create#0;class#PositionDaoImpl#0" expanded="false" />
-            <element signature="method#read#0;class#PositionDaoImpl#0" expanded="false" />
-            <element signature="method#update#0;class#PositionDaoImpl#0" expanded="false" />
-            <element signature="class#PositionMapper#0;class#PositionDaoImpl#0" expanded="false" />
-            <marker date="1523307133974" expanded="true" signature="557:595" ph="INSERT INTO team... " />
-            <marker date="1523307133974" expanded="true" signature="630:665" ph="SELECT * FRO... team" />
-            <marker date="1523307133974" expanded="true" signature="702:743" ph="UPDATE position... " />
-            <marker date="1523307133974" expanded="true" signature="780:813" ph="DELETE from team... " />
-            <marker date="1523307133974" expanded="true" signature="867:1096" ph="select * fro... position" />
-            <marker date="1523307133974" expanded="true" signature="1131:1170" ph="select * fro... position" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,16 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,49 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,19 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,22 +1186,9 @@
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#468#469#0" expanded="false" />
             <element signature="e#513#514#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1339,9 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,47 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding>
-            <element signature="method#update#0;class#PlayerDaoImpl#0" expanded="false" />
-            <marker date="1523302104489" expanded="true" signature="616:695" ph="INSERT INTO team... " />
-            <marker date="1523302104489" expanded="true" signature="730:763" ph="SELECT * FRO... team" />
-            <marker date="1523302104489" expanded="true" signature="800:887" ph="UPDATE team... " />
-            <marker date="1523302104489" expanded="true" signature="924:955" ph="DELETE from team... " />
-            <marker date="1523302104489" expanded="true" signature="1005:1060" ph="select * fro... player" />
-            <marker date="1523302104489" expanded="true" signature="1114:1341" ph="select * fro... player" />
-            <marker date="1523302104489" expanded="true" signature="1376:1415" ph="SELECT * fro... player" />
-            <marker date="1523302104489" expanded="true" signature="1376:1416" ph="SELECT * fro... player" />
-            <marker date="1523302104489" expanded="true" signature="2069:2092" ph="SELECT LAST_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,35 +1232,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
           <caret line="100" column="106" lean-forward="false" selection-start-line="100" selection-start-column="106" selection-end-line="100" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <marker date="1523371983334" expanded="true" signature="603:668" ph="INSERT INTO team... " />
-            <marker date="1523371983334" expanded="true" signature="703:745" ph="SELECT * FRO... team" />
-            <marker date="1523371983334" expanded="true" signature="782:852" ph="UPDATE team... " />
-            <marker date="1523371983334" expanded="true" signature="889:929" ph="DELETE from team... " />
-            <marker date="1523371983334" expanded="true" signature="1732:1755" ph="SELECT LAST_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sg/webservice/PlayerWebServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="416" column="58" lean-forward="false" selection-start-line="416" selection-start-column="58" selection-end-line="416" selection-end-column="58" />
+        <state relative-caret-position="190">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getPlayerListViewModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
             <element signature="method#getPlayerProfileViewModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
             <element signature="method#saveCreatePlayerCommandModel#0;class#PlayerWebServiceImplTest#0" expanded="false" />
@@ -1462,32 +1252,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="135" column="53" lean-forward="false" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="53" />
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/TeamWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="88" selection-end-line="12" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/TeamWebServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="method#getTeamListViewModel#0;class#TeamWebServiceImpl#0" expanded="false" />
+            <element signature="method#translate#0;class#TeamWebServiceImpl#0" expanded="false" />
+            <element signature="method#translate#1;class#TeamWebServiceImpl#0" expanded="false" />
+            <element signature="method#getTeamProfileViewModel#0;class#TeamWebServiceImpl#0" expanded="false" />
+            <element signature="method#getEditTeamCommandModel#0;class#TeamWebServiceImpl#0" expanded="false" />
+            <element signature="method#saveCreateTeamCommandModel#0;class#TeamWebServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/playerprofile/PlayerProfileViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/player/editplayer/EditTeamViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.2.2.Final/hibernate-validator-5.2.2.Final.jar!/org/hibernate/validator/constraints/NotEmpty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/editplayer/EditPlayerCommandModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/controller/PlayerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/interfaces/PlayerWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/player/createplayer/CreatePlayerCommandModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/TeamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/webservice/PlayerWebServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="430" column="64" lean-forward="false" selection-start-line="430" selection-start-column="64" selection-end-line="430" selection-end-column="64" />
+          <folding>
             <element signature="method#PlayerWebServiceImpl#0;class#PlayerWebServiceImpl#0" expanded="false" />
-            <element signature="method#getPlayerListViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
-            <element signature="method#getPlayerProfileViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
-            <element signature="method#saveCreatePlayerCommandModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#saveEditPlayerCommandModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#translateCreateTeamViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#translateCreatePositionViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#translateEditTeamViewModel#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#translatePosition#0;class#PlayerWebServiceImpl#0" expanded="false" />
             <element signature="method#translatePosition#1;class#PlayerWebServiceImpl#0" expanded="false" />
-            <element signature="method#translate#1;class#PlayerWebServiceImpl#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/TeamDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1523284933469" expanded="true" signature="495:541" ph="INSERT INTO team... " />
+            <marker date="1523284933469" expanded="true" signature="576:607" ph="SELECT * FRO... team" />
+            <marker date="1523284933469" expanded="true" signature="644:695" ph="UPDATE team... " />
+            <marker date="1523284933469" expanded="true" signature="732:761" ph="DELETE from team... " />
+            <marker date="1523284933469" expanded="true" signature="796:831" ph="SELECT * fro... team" />
+            <marker date="1523284933469" expanded="true" signature="1218:1241" ph="SELECT LAST_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/player/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>baseballleague:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>grails-3.3.0.M2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1500,6 +1548,18 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>baseballleague</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1523,6 +1583,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

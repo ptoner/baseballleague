@@ -1,9 +1,15 @@
 package com.sg.commandmodel.player.createplayer;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class CreatePlayerCommandModel {
 
     private String first;
+
+    @NotEmpty(message = "HAVE FUN WITH THIS ONE LATER ON THE EDIT SCREEN")
     private String last;
+
+
     private String hometown;
     private Long teamId;
     private Long[] positionIds;

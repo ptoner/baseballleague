@@ -27,7 +27,12 @@ public class TeamWebServiceImpl implements TeamWebService {
 
 
     @Override
-    public TeamListViewModel getTeamListViewModel(int limit, int offset, int pagesToShow) {
+    public TeamListViewModel getTeamListViewModel(Integer limit, Integer offset, Integer pagesToShow) {
+
+        //Set defaults
+        if (limit == null) limit = 5;
+        if (offset == null) offset = 0;
+        if (pagesToShow == null) pagesToShow = 5;
 
         //Instantiate view model
         TeamListViewModel teamListViewModel = new TeamListViewModel();
